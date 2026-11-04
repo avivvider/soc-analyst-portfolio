@@ -1,4 +1,3 @@
-[week-02 (1).md](https://github.com/user-attachments/files/34389348/week-02.1.md)
 # SOC Analyst Portfolio
 
 Documentation, detection rules, and write-ups from my home labs as I build my path toward a SOC Analyst (Tier 1) role.
