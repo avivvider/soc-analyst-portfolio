@@ -1,3 +1,4 @@
+[week-02 (1).md](https://github.com/user-attachments/files/34389348/week-02.1.md)
 # SOC Analyst Portfolio
 
 Documentation, detection rules, and write-ups from my home labs as I build my path toward a SOC Analyst (Tier 1) role.
@@ -43,7 +44,6 @@ IT Help Desk Technician with hands-on experience supporting Windows, Linux, Offi
 ```
 
 ## Write-ups
-- [Week 2 – ICMP packet analysis in Wireshark](https://github.com/avivvider/soc-analyst-portfolio/blob/main/week-02.md)
-
+- [Week 2 – ICMP packet analysis in Wireshark](https://github.com/avivvider/soc-analyst-portfolio/blob/main/writeups/week-02.md)
 ## Disclaimer
 All labs are performed in isolated, self-owned environments for educational purposes. Nothing in this repository relates to my employer.
