@@ -1,4 +1,3 @@
-[week-02.md](https://github.com/user-attachments/files/34388996/week-02.md)
 # Week 2 – ICMP packet analysis in Wireshark
 
 **Date:** 22/10/2026
