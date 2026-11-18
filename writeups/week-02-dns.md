@@ -23,11 +23,26 @@ Source: 192.168.1.123 → Destination: 8.8.8.8
 The frame is 70 bytes: 14 (Ethernet) + 20 (IPv4) + 8 (UDP) + 28 (DNS). The UDP Length of 36 is 8 + 28, and the IP Total Length of 56 is 20 + 36, without the Ethernet header.
 
 ### Screenshots
-1. Frame – `images/dns/01_Frame_547_Request.png`
-2. Ethernet II – `images/dns/02_Frame_547_Request_Ethernet.png`
-3. IPv4 – `images/dns/03_Frame_547_Request_IPv4.png`
-4. UDP – `images/dns/04_Frame_547_Request_UDP.png`
-5. DNS – `images/dns/05_Frame_547_Request_DNS.png`
+**Frame**
+
+![Frame](images/dns/query/01_Frame_547_Request.png)
+
+**Ethernet II**
+
+![Ethernet II](images/dns/query/02_Frame_547_Request_Ethernet.png)
+
+**IPv4**
+
+![IPv4](images/dns/query/03_Frame_547_Request_IPv4.png)
+
+**UDP**
+
+![UDP](images/dns/query/04_Frame_547_Request_UDP.png)
+
+**DNS**
+
+![DNS](images/dns/query/05_Frame_547_Request_DNS.png)
+
 
 ---
 
@@ -46,11 +61,26 @@ Source: 8.8.8.8 → Destination: 192.168.1.123
 The frame is 86 bytes: 14 (Ethernet) + 20 (IPv4) + 8 (UDP) + 44 (DNS). The DNS part is 12 bytes of header, 16 bytes of the repeated question, and 16 bytes of answer. This is why the response (44 bytes) is bigger than the query (28 bytes).
 
 ### Screenshots
-1. Frame – `images/dns/06_Frame_548_Reply.png`
-2. Ethernet II – `images/dns/07_Frame_548_Reply_Ethernet.png`
-3. IPv4 – `images/dns/08_Frame_548_Reply_IPv4.png`
-4. UDP – `images/dns/09_Frame_548_Reply_UDP.png`
-5. DNS – `images/dns/10_Frame_548_Reply_DNS.png`
+**Frame**
+
+![Frame](images/dns/reply/06_Frame_548_Reply.png)
+
+**Ethernet II**
+
+![Ethernet II](images/dns/reply/07_Frame_548_Reply_Ethernet.png)
+
+**IPv4**
+
+![IPv4](images/dns/reply/08_Frame_548_Reply_IPv4.png)
+
+**UDP**
+
+![UDP](images/dns/reply/09_Frame_548_Reply_UDP.png)
+
+**DNS**
+
+![DNS](images/dns/reply/10_Frame_548_Reply_DNS.png)
+
 
 ---
 
