@@ -43,6 +43,8 @@ IT Help Desk Technician with hands-on experience supporting Windows, Linux, Offi
 ```
 
 ## Write-ups
-- [Week 2 – ICMP packet analysis in Wireshark](https://github.com/avivvider/soc-analyst-portfolio/blob/main/writeups/week-02.md)
+- [Week 2 – ICMP packet analysis in Wireshark](writeups/week-02.md)
+- [Week 2 – DNS query and response analysis in Wireshark](writeups/week-02-dns.md)
+
 ## Disclaimer
 All labs are performed in isolated, self-owned environments for educational purposes. Nothing in this repository relates to my employer.
