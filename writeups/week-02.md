@@ -22,10 +22,22 @@ Source: 192.168.1.123 → Destination: 142.250.75.46
 The frame is 74 bytes: 14 (Ethernet) + 20 (IP) + 8 (ICMP) + 32 (data).
 
 ### Screenshots
-1. Frame – `images/frame-100.png`
-2. Ethernet II – `images/frame-100-ethernet.png`
-3. IPv4 – `images/frame-100-ipv4.png`
-4. ICMP – `images/frame-100-icmp.png`
+**Frame**
+
+![Frame](images/icmp/frame-100.png)
+
+**Ethernet II**
+
+![Ethernet II](images/icmp/frame-100-ethernet.png)
+
+**IPv4**
+
+![IPv4](images/icmp/frame-100-ipv4.png)
+
+**ICMP**
+
+![ICMP](images/icmp/frame-100-icmp.png)
+
 
 ---
 
@@ -41,10 +53,22 @@ Source: 142.250.75.46 → Destination: 192.168.1.123
 | ICMP | Type 0 (Echo reply), Sequence: 6, Request frame: 100, Response time: 10.349 ms | The reply to request 100, matched by the sequence number |
 
 ### Screenshots
-1. Frame – `images/frame-101.png`
-2. Ethernet II – `images/frame-101-ethernet.png`
-3. IPv4 – `images/frame-101-ipv4.png`
-4. ICMP – `images/frame-101-icmp.png`
+**Frame**
+
+![Frame](images/icmp/frame-101.png)
+
+**Ethernet II**
+
+![Ethernet II](images/icmp/frame-101-ethernet.png)
+
+**IPv4**
+
+![IPv4](images/icmp/frame-101-ipv4.png)
+
+**ICMP**
+
+![ICMP](images/icmp/frame-101-icmp.png)
+
 
 ---
 
